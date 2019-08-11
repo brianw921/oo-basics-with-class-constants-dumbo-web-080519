@@ -1,8 +1,8 @@
 class Book
   GENRES =[]
 
-  def genre
-    @genre
+  def initialize(genre)
+    @genre = genre 
   end
 
   def genre= (genre)
